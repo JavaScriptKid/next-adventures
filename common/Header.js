@@ -6,7 +6,7 @@ const Header = () => (
     <nav className="navbar navbar-default">
       <Link href="/" activeClassName="active">Home</Link>
       {" | "}
-      <Link href="gallery" activeClassName="active">Library</Link>
+      <Link href="/gallery" activeClassName="active">Library</Link>
       {" | "}
       <Link href="/basiccss" activeClassName="active">Basic CSS</Link>
     </nav>

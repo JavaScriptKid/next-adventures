@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Button from './btn'
 
 const HomePage = () => (
   <div className="jumbotron center">
@@ -8,9 +9,9 @@ const HomePage = () => (
     </h1>
     <div>
       <Link href="/gallery">
-        <button className="btn btn-lg btn-primary">
+        <Button>
           Visit Library
-        </button>
+        </Button>
       </Link>
     </div>
   </div>

@@ -1,19 +1,21 @@
 import React, { Component, PropTypes } from 'react'
+import 'glamor/reset'
 import Header from '../common/Header'
+import HomePage from '../components/HomePage'
 
 class App extends Component {
   render() {
     return (
-      <div className="container-fluid text-center">
+      <div>
         <Header />
-        {this.props.children}
+        <HomePage />
       </div>
     )
   }
 }
 
 App.propTypes = {
-  children: PropTypes.object.isRequired
+  children: PropTypes.object
 }
 
 export default App

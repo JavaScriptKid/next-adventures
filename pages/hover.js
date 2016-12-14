@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../common/Header'
+import Header from '../components/Header'
 import style from 'next/css'
 
 export default () => (

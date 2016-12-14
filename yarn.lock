@@ -1745,6 +1745,12 @@ glamor@2.20.8:
   dependencies:
     fbjs "^0.8.6"
 
+glamor@^2.20.12:
+  version "2.20.12"
+  resolved "https://registry.yarnpkg.com/glamor/-/glamor-2.20.12.tgz#f59bd96a87e57447b7c1eb3d69bceca1ab7127b8"
+  dependencies:
+    fbjs "^0.8.6"
+
 glob-base@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/glob-base/-/glob-base-0.3.0.tgz#dbb164f6221b1c0b1ccf82aea328b497df0ea3c4"

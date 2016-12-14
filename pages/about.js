@@ -5,7 +5,7 @@ import Counter from '../components/Counter'
 export default () => (
   <div>
     <Header />
-    <p>HOME PAGE is here!</p>
+    <p>This is the about page.</p>
     <Counter />
   </div>
 )

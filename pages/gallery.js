@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../common/Header'
+import Header from '../components/Header'
 import Modal from '../components/modal'
 import { style } from 'next/css'
 
