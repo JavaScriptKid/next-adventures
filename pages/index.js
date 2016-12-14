@@ -12,7 +12,6 @@ export default class App extends React.Component {
       <Head>
         <title>JSK's Next Adventures</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="stylesheet" href="static/lib/flex.css"/>
       </Head>
       <Header />
       <p>HOME PAGE is here!</p>
