@@ -1,0 +1,46 @@
+{
+  "name": "JavaScriptKid",
+  "version": "0.1.1",
+  "description": "JavaScript Kid's Epic Adventures",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krisaoe/JavaScriptKid.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "React",
+    "Next",
+    "Pixi",
+    "React-Motion"
+  ],
+  "author": "krisaoe <powellk@utas.edu.au>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krisaoe/JavaScriptKid/issues"
+  },
+  "homepage": "https://github.com/krisaoe/JavaScriptKid#readme",
+  "dependencies": {
+    "babel-eslint": "^7.1.1",
+    "cowsay-browser": "^1.1.8",
+    "d3": "^4.4.0",
+    "next": "latest",
+    "react-keyframes": "^0.2.2",
+    "react-motion": "^0.4.6",
+    "react-motion-ui-pack": "^0.10.2",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0",
+    "remote-redux-devtools": "^0.5.7",
+    "standard": "^8.6.0"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "standard"
+  }
+}
