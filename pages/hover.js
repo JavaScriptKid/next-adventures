@@ -5,9 +5,9 @@ import style from 'next/css'
 export default () => (
   <div>
     <Header />
-    <div className={styles}>
+    <button className={styles}>
       <p>Hello World</p>
-    </div>
+    </button>
   </div>
 )
 

@@ -4,4 +4,3 @@ Api
 .next
 .env
 *.log
-static

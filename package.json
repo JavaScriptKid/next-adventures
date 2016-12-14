@@ -10,9 +10,7 @@
   "keywords": [
     "JavaScript",
     "React",
-    "Next",
-    "Pixi",
-    "React-Motion"
+    "Next"
   ],
   "author": "krisaoe <powellk@utas.edu.au>",
   "license": "ISC",
@@ -23,13 +21,9 @@
   "dependencies": {
     "babel-eslint": "^7.1.1",
     "cowsay-browser": "^1.1.8",
-    "glamor": "^2.20.12",
     "next": "*",
+    "react-flex-material": "^1.0.2",
     "react-keyframes": "^0.2.2",
-    "react-redux": "^4.4.6",
-    "redux": "^3.6.0",
-    "redux-thunk": "^2.1.0",
-    "remote-redux-devtools": "^0.5.7",
     "standard": "^8.6.0"
   },
   "standard": {
@@ -40,8 +34,5 @@
     "build": "next build",
     "start": "next start",
     "lint": "standard"
-  },
-  "next": {
-    "cdn": true
   }
 }
