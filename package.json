@@ -20,6 +20,9 @@
   "homepage": "https://github.com/JavaScriptKid/next-adventures#readme",
   "dependencies": {
     "babel-eslint": "^7.1.1",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "chroma-js": "^1.2.1",
     "cowsay-browser": "^1.1.8",
     "next": "*",
     "react-flex-material": "^1.0.2",
@@ -34,5 +37,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "standard"
+  },
+  "babel": {
+    "presets": [
+      "latest",
+      "react"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
   }
 }
