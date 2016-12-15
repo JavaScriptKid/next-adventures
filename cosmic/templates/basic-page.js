@@ -24,6 +24,7 @@ export default class BasicPage extends React.Component {
             <div dangerouslySetInnerHTML={{__html: page.content}}/>
           </div>
         </main>
+        <HeroUnit/>
         <Footer page={page}/>
       </div>
     )

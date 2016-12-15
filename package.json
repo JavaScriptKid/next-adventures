@@ -46,6 +46,7 @@
       "react"
     ],
     "plugins": [
+      "glamor/babel",
       "transform-runtime"
     ]
   }
