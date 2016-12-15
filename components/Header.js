@@ -1,55 +1,71 @@
 import React from 'react'
-import Head from 'next/head'
 import Link from 'next/link'
-import {Flex} from 'react-flex-material/lib/flex'
 
-const styles = {
-  a: {
-    marginRight: 10
+import { css } from 'next/css'
+
+let linkContainer = css({
+  padding: '1em',
+  ':hover': {
+    backgroundColor: 'lightslategrey'
+  },
+  '> a': {
+    textDecoration: 'none',
+    color: 'hotpink',
+    ':hover': {
+      color: 'slategrey'
+    },
+    ':active': {
+      color: 'slategrey'
+    }
   }
-}
+})
+let headerContainer = css({
+  height: '3.5em',
+  backgroundColor: 'slategrey',
+  borderBottom: '1px solid #999',
+  font: '20px Arial',
+  display: 'flex',
+  justifyContent: 'stretch'
+})
 
 export default () => (
   <div>
-    <Head>
-      <link rel="stylesheet" href="static/lib/flex.css"/>
-    </Head>
-    <Flex layout align="space-between center">
-      <Flex flex>
+    <div {...headerContainer}>
+      <div {...linkContainer}>
         <Link href='/'>
-          <a style={styles.a} >Home</a>
+          Home
         </Link>
-      </Flex>
-      <Flex divider />
-      <Flex flex>
+      </div>
+      <div {...linkContainer}>
         <Link href='/about'>
-          <a style={styles.a} >About</a>
+          About
         </Link>
-      </Flex>
-      <Flex divider />
-      <Flex flex>
+      </div>
+      <div {...linkContainer}>
         <Link href='/hover'>
-          <a style={styles.a} >Hover</a>
+          Hover
         </Link>
-      </Flex>
-      <Flex divider />
-      <Flex flex>
+      </div>
+      <div {...linkContainer}>
+        <Link href='/levitator'>
+          Levitate
+        </Link>
+      </div>
+      <div {...linkContainer}>
         <Link href='/cowsay'>
-          <a style={styles.a} >Cowsay</a>
+          Cowsay
         </Link>
-      </Flex>
-      <Flex divider />
-      <Flex flex>
+      </div>
+      <div {...linkContainer}>
         <Link href='/gallery'>
-          <a style={styles.a} >Gallery</a>
+          Gallery
         </Link>
-      </Flex>
-      <Flex divider />
-      <Flex flex>
+      </div>
+      <div {...linkContainer}>
         <Link href='/profile'>
-          <a style={styles.a} >Profile</a>
+          Profile
         </Link>
-      </Flex>
-    </Flex>
+      </div>
+    </div>
   </div>
 )

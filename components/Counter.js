@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './btn'
 
 let count = 0
 
@@ -12,7 +13,7 @@ export default class Counter extends React.Component {
     return (
       <div>
         <p>Count is: {count}</p>
-        <button onClick={() => this.add()}>Add</button>
+        <Button onClick={() => this.add()}>Add</Button>
       </div>
     )
   }

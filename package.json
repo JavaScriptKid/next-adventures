@@ -23,10 +23,12 @@
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
     "chroma-js": "^1.2.1",
+    "cosmicjs": "^2.35.0",
     "cowsay-browser": "^1.1.8",
     "next": "*",
     "react-flex-material": "^1.0.2",
     "react-keyframes": "^0.2.2",
+    "shorti": "^1.2.6",
     "standard": "^8.6.0"
   },
   "standard": {

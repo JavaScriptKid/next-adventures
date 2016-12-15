@@ -1,7 +1,9 @@
 import React from 'react'
 import Head from 'next/head'
 import Header from '../components/Header'
+import Button from '../components/btn'
 import Counter from '../components/Counter'
+import 'glamor/reset'
 
 export default class App extends React.Component {
   handleClick() {
@@ -15,7 +17,7 @@ export default class App extends React.Component {
       </Head>
       <Header />
       <p>HOME PAGE is here!</p>
-      <button onClick={this.handleClick}>Hello, World!</button>
+      <Button onClick={this.handleClick}>Hello, World!</Button>
       <Counter />
     </div>
   }

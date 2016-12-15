@@ -1,23 +1,31 @@
 import React from 'react'
-import style from 'next/css'
+import { css } from 'next/css'
+import { bold, space, colors } from './mainStyles'
+import chroma from 'chroma-js'
 
-export default class Button extends React.Component {
-  render() {
-    return (
-      <button className={styles} onClick={props.onClick}>
-        {props.text}
-      </button>
-    )
-  }
+const Button = ({
+  ...props
+}) => {
+  const sx = css({
+    fontFamily: 'inherit',
+    fontSize: 'inherit',
+    fontWeight: bold,
+    textDecoration: 'none',
+    display: 'inline-block',
+    margin: 0,
+    paddingTop: space[1],
+    paddingBottom: space[1],
+    paddingLeft: space[2],
+    paddingRight: space[2],
+    border: 0,
+    color: colors.white,
+    backgroundColor: colors.blue,
+    WebkitAppearance: 'none',
+    MozAppearance: 'none'
+  })
+
+  return (
+    <button {...props} {...sx} />
+  )
 }
-
-const styles = style({
-  font: '15px Helvetica, Arial, sans-serif',
-  background: '#eee',
-  padding: '100px',
-  textAlign: 'center',
-  transition: '100ms ease-in background',
-  ':hover': {
-    background: '#ccc'
-  }
-})
+export default Button

@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import style from 'next/css'
+import chroma from 'chroma-js'
 
 export default () => (
   <div>
@@ -18,6 +19,6 @@ const styles = style({
   textAlign: 'center',
   transition: '100ms ease-in background',
   ':hover': {
-    background: '#ccc'
+    background: chroma('hotpink').css()
   }
 })
