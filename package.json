@@ -25,6 +25,7 @@
     "chroma-js": "^1.2.1",
     "cowsay-browser": "^1.1.8",
     "next": "*",
+    "react-color": "^2.10.0",
     "react-flex-material": "^1.0.2",
     "react-keyframes": "^0.2.2",
     "standard": "^8.6.0"
